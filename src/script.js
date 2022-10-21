@@ -17,13 +17,11 @@ let logHealth = (player, health) => {
   console.log(player + " health: " + health);
   return;
 };
-console.log(logHealth("joe", 100));
 
 let logDeath = (winner, loser) => {
   console.log(winner + " defeated " + loser);
   return;
 };
-console.log(logDeath());
 
 let isDead = (health) => {
   return health <= 0 ? true : false;
